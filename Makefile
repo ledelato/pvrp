@@ -1,5 +1,5 @@
 all:
-	g++ -O3 path.cpp main.cpp -o gproj
+	g++ -Wall -Wextra -O3 path.cpp main.cpp -o gproj
 
 clean:
 	rm gproj
